@@ -38,7 +38,7 @@ logging.basicConfig(
 )
 
 # === 변수 설정 === #
-API_TOKEN = "23d3c61f-824d-4e54-802d-1b8d7f8164b7"  # 스마트싱스 API 토큰
+API_TOKEN = None  # [사용자 입력 필요]: 스마트싱스 API 토큰 
 API_BASE_URL = "https://api.smartthings.com/v1"
 HEADERS = {"Authorization": f"Bearer {API_TOKEN}"}
 
